@@ -1,0 +1,23 @@
+.homePageLight{
+    height: 100vh;
+    background-color: #cce6ce;
+}
+.homePageDark{
+    height: 100vh;
+    background-color: #757575;
+}
+.paperDark{
+    background-color: black;
+    color: white;
+}
+.paperLight{
+    background-color: "#66bb6a";
+    color: #f9fbe7;
+}
+paper{
+    background-color: "#66bb6a";
+    color: #f9fbe7;  
+}
+/* *{
+    
+} */

@@ -1,0 +1,90 @@
+[
+
+    {
+        "name": "A1",
+        "book": false,
+        "ticketSelect": null
+    },
+    {
+        "name": "A2",
+        "book": false, "ticketSelect": null
+
+    },
+    {
+        "name": "A3",
+        "book": false, "ticketSelect": null
+    },
+    {
+        "name": "A4",
+        "book": false, "ticketSelect": null
+    },
+    {
+        "name": "B1",
+        "book": false, "ticketSelect": null
+    },
+    {
+        "name": "B2",
+        "book": false, "ticketSelect": null
+    },
+    {
+        "name": "B3",
+        "book": false, "ticketSelect": null
+    },
+    {
+        "name": "B4",
+        "book": false, "ticketSelect": null
+    },
+    {
+        "name": "C1",
+        "book": false, "ticketSelect": null
+    },
+
+    {
+        "name": "C2",
+        "book": false, "ticketSelect": null
+    },
+    {
+        "name": "C3",
+        "book": false, "ticketSelect": null
+    },
+    {
+        "name": "C4",
+        "book": false, "ticketSelect": null
+    },
+    {
+        "name": "D1",
+        "book": false, "ticketSelect": null
+    },
+    {
+        "name": "D2",
+        "book": false, "ticketSelect": null
+    },
+    {
+        "name": "D3",
+        "book": false, "ticketSelect": null
+
+    },
+    {
+        "name": "D4",
+        "book": false, "ticketSelect": null
+    },
+    {
+        "name": "E1",
+        "book": false, "ticketSelect": null
+    },
+    {
+        "name": "E2",
+        "book": false, "ticketSelect": null
+    },
+    {
+        "name": "E3",
+        "book": false, "ticketSelect": null
+    },
+
+    {
+        "name": "E4",
+        "book": false, "ticketSelect": null
+    }
+
+
+]

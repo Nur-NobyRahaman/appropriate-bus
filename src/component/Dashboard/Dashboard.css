@@ -1,0 +1,47 @@
+.dashBoardPage {
+    height: 100vh;
+    background-color: #cce6ce;
+}
+
+.dashBoardPageDark {
+    height: 100vh;
+    background-color: #757575;
+}
+
+.sideBar:hover {
+    background-color: #c5e1a5;
+    color: white;
+
+}
+
+.sideBarActive {
+    background-color: #2e7d32;
+    color: white;
+}
+
+.sideBarDark {
+    background-color: #757575;
+    color: white;
+}
+
+.sideBarLight {
+    background-color: #efebe9;
+}
+
+.card {
+    --bg-color: #ecf7f0;
+    --bg-color-light: #e2fced;
+    --text-color-hover: #ddebe7;
+    --box-shadow-color: rgba(10, 63, 38, 0.48);
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0, 0, 0, 0.20),
+        0 24px 46px var(--box-shadow-color);
+}
+
+.card:hover .overlay {
+    transform: scale(4) translateZ(0);
+}

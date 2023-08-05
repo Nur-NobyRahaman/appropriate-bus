@@ -1,0 +1,10 @@
+.registerBody{
+    background-image: url(../../image/bus-from.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}

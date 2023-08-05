@@ -1,0 +1,14 @@
+.seat:hover{
+    /* background-color: blue; */
+    cursor: pointer;
+}
+.seatActive{
+    background-color: gray;
+    cursor: pointer;
+}
+.form{
+    background-color: lightblue;
+    width: 20vw;
+    margin: auto;
+    border-radius: 5px;
+}

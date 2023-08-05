@@ -1,0 +1,30 @@
+.navlink{
+    color:white;
+    /* margin: 15px; */
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+}
+.navlink:hover{
+    color: #5a0870;
+    /* font-weight: bold; */
+}
+.navlinkd{
+    text-decoration: none;
+}
+.navlinkActive{
+    color: goldenrod;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    
+}
+.navlinkDark{
+    color: white;
+    text-decoration: none;
+}
+.navLinkLight{
+    color: black;
+    text-decoration: none;
+}
