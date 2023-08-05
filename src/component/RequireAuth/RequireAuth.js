@@ -13,6 +13,7 @@ const RequireAuth = ({ children }) => {
   const [user, loading] = useAuthState(auth);
   console.log("🚀 ~ file: RequireAuth.js:13 ~ RequireAuth ~ user:", user)
   const { currentUser, loader,currentAdmin } = useContext(AuthContext)
+  console.log(currentAdmin)
   console.log("🚀 ~ file: RequireAuth.js:14 ~ RequireAuth ~ currentUser:", currentUser?.uid)
 
   let location = useLocation();
@@ -20,7 +21,7 @@ const RequireAuth = ({ children }) => {
   if (loading) {
     return <LinearProgress color="success" />
   }
-  if (!user && !currentAdmin) {
+  if (!user && !currentAdmin?.uid) {
     return (
       <Navigate to={"/login"} state={{ from: location }} replace></Navigate>
     );
